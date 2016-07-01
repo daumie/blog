@@ -1,0 +1,64 @@
+title: Dominic Motuka
+description: My Personal Blog
+author: Dominic Motuka
+logo: /assets/img/avatar.png
+github: https://github.com/daumie
+about: Freelance Web developer
+disqus_shortname: daumie
+google_analytics: UA-80222908-1
+urls:
+    - text: Home
+      url: /
+      icon: fa-home
+      layout: post
+    - text: About
+      url: /about/
+      icon: fa-comments
+    - text: Projects
+      url: /projects/
+      icon: fa-desktop
+    - text: Resume
+      url: '/resume/'
+      icon: fa-graduation-cap
+    - text: Github
+      url: https://github.com/daumie
+      icon: fa-github
+    - text: XML Feed
+      url: /feed.xml
+      icon: fa-feed
+      
+social:
+
+    - icon: fa-github
+      link: 'https://github.com/daumie'
+    - icon: fa-stack-exchange
+      link: 'http://stackexchange.com/users/5999356/daumie'
+    - icon: fa-linkedin
+      link: 'https://ke.linkedin.com/in/dominic-monyoncho-1860b578'
+    - icon: fa-twitter
+      link: 'https://twitter.com/MotukaD'
+    - icon: fa-facebook
+      link: 'https://www.facebook.com/dominic.motuka'
+      icon: fa-google
+      link: 'mailto:dominic.motuka@gmail.com'
+    
+    
+    
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+url: 
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
