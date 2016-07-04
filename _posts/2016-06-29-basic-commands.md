@@ -230,6 +230,17 @@ The `mv` move command moves files from one location to another
 
 **Note:** `mv` command can be used with wildcard characters. `mv` should be used with caution, as moving of _system/unauthorised`_ file may lead to security issues as well as system breakdown. 
 
+## `apropos` command
+
+Sometimes you forget the name of a command but you know what it does. This command looks through all the help files and finds potentially relevant help for you.
+
+	$ apropos search
+	$ apropos find
+	$ apropos remove
+	$ apropos directory
+
+Honestly, I only use this out of desperation. I first go search online and can usually find a better page describing what I want to do. If I still can't figure out what the name of that command was then I go through this help list until I see it.
+
 ## `pushd`  push directory and `popd`
 
 You're getting into programmer territory with these commands, but they're so handy I have to teach them to you. These commands let you temporarily go to a different directory and then come back, easily switching between the two.
