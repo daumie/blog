@@ -54,6 +54,8 @@ The `mkdir` _Make directory_ command creates a new directory with name path. How
 
 	$ mkdir ~/stuff
 
+` $ mkdir -p ` will make an entire path even if all the directories don't exist
+
 [**Question**]: How dow we remove directories?.....worry no more, linux has you covered
 
 	$ rmdir ~/stuff
@@ -108,6 +110,37 @@ The `cat` stands for _(Concatenation)_. Concatenate **(join)** two or more plain
 
 Here, `cat` just opens the file _myspeech.txt_ and prints the entire file to
 your screen, as fast as it can
+
+The `less` command when working on the command line allows you to view the contents of a file allowing you to navigate through a long file. You can use it directly on a file or in conjunction with the cat command where the cat command prints the file to screen and the `less` command controls how you view the contents.
+
+You use the `less` command like this:
+
+	$ `less` /some/directory/filename
+
+You use the pipe command to pipe the output of the `cat` to the `less` command like this:
+
+	$ cat /some/directory/filename | less
+
+The `less` command will print the first screen full of data from that file to your screen.
+
+To traverse the file press the following.
+
+_down arrow - scrolls down one line_
+
+_up arrow - scrolls up one line_
+
+_d - scrolls down half a page_
+
+_b - scrolls up half a page_
+
+_q - exit `less`_
+
+ 
+
+For more control of the less command check out the man pages by typing:
+
+	$ man less
+
 
 **Note:** `>>` and `>` are called append symbol. They are used to append the output to a file and **NOT** on standard output. `>` symbol will delete a file already existed and create a new file hence for security reason it is advised to use `>>` that will write the output without overwriting or deleting the file.
 
@@ -196,6 +229,16 @@ The `mv` move command moves files from one location to another
 	$ mv /home/daumie/Downloads/file.txt /home/daumie/Desktop/
 
 **Note:** `mv` command can be used with wildcard characters. `mv` should be used with caution, as moving of _system/unauthorised`_ file may lead to security issues as well as system breakdown. 
+
+## `pushd`  push directory and `popd`
+
+You're getting into programmer territory with these commands, but they're so handy I have to teach them to you. These commands let you temporarily go to a different directory and then come back, easily switching between the two.
+
+The `pushd` command takes your current directory and _pushes_ it into a list for later, then it changes to another directory. It's like saying, _Save where I am, then go here._
+
+The `popd` command takes the last directory you pushed and _pops_ it off, taking you back there.
+
+Finally, on Unix `pushd`, if you run it by itself with no arguments, will switch between your current directory and the last one you pushed.
 
 These commands will surely make you comfortable with Linux. But it’s not the end. Very soon I will be coming with other commands which will be useful for _Middle Level User_
 
