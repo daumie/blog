@@ -44,7 +44,7 @@ The `#` character is also used for comments.
 	# the following command will show the contents of the current directory
 	ls -la
 
------------------------------------------------------------------------------------------------------------
+---
 
 ## Alternative names for the terminal:
 
