@@ -9,3 +9,5 @@ Proudly powered by [Jekyll](https://jekyllrb.com/)
 ---
 
 See [LICENSE](https://github.com/daumie/daumie.github.io/blob/master/LICENSE)
+
+I welcome any and all feedback, especially criticism, especially in a civil tone. Thanks for reading!
