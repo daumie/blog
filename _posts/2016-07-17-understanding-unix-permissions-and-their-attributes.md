@@ -10,6 +10,10 @@ I've never really got how `chmod` worked up until today. I followed a tutorial t
 
 The chmod command in Linux/Unix is abbreviated as **CH**ange  **MOD**e. Chmod command is useful to change permission for Files and folders in Linux/Unix. 
 
+This type of restriction is useful for effective file/folder management, securing system and providing a level of access to a file/folder for the users who access them.
+
+![Chmod](/assets/img/chmod.png)
+
 For example, I've read that you've got three different permission groups._(For every file we define 3 sets of people for whom we may specify permissions.)_
 
 - owner **(u)**  - a single person who owns the file. (typically the person who created the file but ownership may be granted to some one else by certain users)
@@ -31,6 +35,54 @@ I've also learned that you've got the following **3** permissions to rule them a
 - read **(r)** - you may view the contents of the file.
 - write **(w)** - you may change the contents of the file.
 - execute **(x)** - you may execute or run the file if it is a program or script.
+
+---
+
+## How can we change permissions for a file/directory?
+
+Permission/access is either Executable or Writable or Readable for a file/folder and can be changed by using following methods
+
+1. Numerical method: Specifying numbers **(1, 2, and 4,)** to change the permission for a file/folder
+
+2. Alpha method: Using alphabets **(w, x, r, u, o, g, a, -, +, =, s, t)** to change permissions for a file/folder
+
+---
+
+### Numerical method
+
+    2^0=1 --eXecute
+
+    2^1=2 --Write
+
+    2^2=4 --Read 
+
+Addition to this there are three more concepts which are linked to this numbering method **(I SUID, SGID, Sticky Bit)**. I will explain about these things in coming posts. 
+
+---
+
+## Alpha Method
+
+`w` --Write
+
+`x` --eXecute
+
+`r` --Read
+
+`u` --User
+
+`g` --Group
+
+`o` --Others
+
+`a` --all
+
+`+` --Add specified permissions to the mention user/group/others/all
+
+`-` --Remove specified permissions from the mention user/group/others/all
+
+`=` --Replicate the permission to other class of the group/user/others.
+
+Addition to these there are **s** and **t** permissions_(SUID, SGID and Sticky Bit)_ available for chmod command which we will discuss in next chmod tutorial. 
 
 ---
 
@@ -162,6 +214,52 @@ Now the interesting point to note is that we may represent all 8 octal values wi
 	daumie@casper $ls -l lantern.jpg
 	--w-r----- 1 daumie daumie 138058 Jul 10 22:04 lantern.jpg
 
+
+## Examples
+
+#### Through Numerical method
+
+**Example 1**: The file should have read, write and execute permissions to user, read and execute permissions to group and read, and execute permissions to others.
+
+read, write and execute permissions to user  = **7**
+
+read and execute permissions to group  = **5**
+
+read and execute permissions to others = **5**
+
+So total permissions will be **755** 
+
+	$ chmod 755 filename
+
+
+**Example 2**: Providing write access to a user 
+
+	$ chmod u+w filename
+
+**Example 3**: Adding write permissions to a group 
+
+	$ chmod g+w filename
+
+**Example 4**: Adding executable permissions to others
+
+	$ chmod o+x filename
+
+**Example 5**: Adding executable and write permissions to all
+
+	$ chmod a+wx filename
+
+**Example 6**: Replicating user permissions to a group
+
+	$ chmod u=g filename
+
+**Example 7**: Removing execute permissions to a user
+
+	$ Chmod u-x filename
+
+**Example 8**: Adding execute permissions to others
+
+	$ Chmod o+x
+	
 People often remember commonly used number sequences for different types of files and find this method quite convenient. For example **755** or **750** are commonly used for scripts.
 
 
