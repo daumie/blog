@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I'm yet to decide what to put here:-A short Bio of Myself? or Some dunk memes ^_^?...or pictures of Cats..I don't know
+My name is Dominic Motuka. I will be posting **instruction guides**, **how-to**, **troubleshooting tips** and **tricks** on _Linux_, _database_, _hardware_, _security_ and _web_. My focus is to write articles that will either <u>teach</u> you or <u>help</u> you resolve a problem. 
