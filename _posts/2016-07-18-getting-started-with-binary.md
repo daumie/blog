@@ -20,10 +20,13 @@ A number system is a means of representing amounts of things. Decimal is just on
 I divided this  Binary tutorial into 3 sections. In general I recommend you work through them in order but if you've come here just to learn about a specific topic then who am I to slow you down, just head straight on over.
 
 
-1.Number Systems - Read on below to discover the theory behind numbers.
-2.Conversions - How to convert between binary and decimal, hexadecimal and octal.
-3.Arithmetic - Learn how to perform various arithmetic operations with binary numbers.
-4.Negative Numbers - Learn how to manage negative numbers in binary 
+1.**Number Systems** - Read on below to discover the theory behind numbers.
+
+2.**Conversions** - How to convert between binary and decimal, hexadecimal and octal.
+
+3.**Arithmetic** - Learn how to perform various arithmetic operations with binary numbers.
+
+4.**Negative Numbers** - Learn how to manage negative numbers in binary 
 
 ---
 
