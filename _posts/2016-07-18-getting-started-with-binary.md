@@ -155,7 +155,7 @@ For most of this tutorial I won't use the prefixes but identify the base directl
 
 ### Referance Table
 
-Here is a reference table for the different number systems.
+Here is a reference table for the different number systems. It is useful for converting between binary and hexadecimal or octal _(and vice versa)_.
 
 |Decimal 	|Binary 	|Octal 	|Hexadecimal|
 |:---|---:|---:|---:|
