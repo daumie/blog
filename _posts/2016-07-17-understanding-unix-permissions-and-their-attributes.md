@@ -82,7 +82,7 @@ Addition to this there are three more concepts which are linked to this numberin
 
 `=` --Replicate the permission to other class of the group/user/others.
 
-Addition to these there are **s** and **t** permissions_(SUID, SGID and Sticky Bit)_ available for chmod command which we will discuss in next chmod tutorial. 
+Addition to these there are **s** and **t** permissions _(SUID, SGID and Sticky Bit)_  available for chmod command which we will discuss in next chmod tutorial. 
 
 ---
 
@@ -103,8 +103,7 @@ The first character identifies the file type. If it is a dash `( - )` then it is
 
 ## Example
 
-	┌─[daumie@casper] - [~/Pictures] - [Sun Jul 17, 07:40]
-	└─[$] <> ls -l
+	daumie@casper $ ls -l
 	total 9124
 	-rw-rw-r-- 1 daumie daumie 138058 Jul 10 22:04 lantern.jpg
 
