@@ -125,3 +125,11 @@ Yes, there is slight difference if you see first command there is a space betwee
 2.Some times there will be user called `nobody` as the owner of some files _(This is caused when an user account is deleted with out deleting his files/folders)_, at this time `chown` command will behave differently.Use `deluser` command when deleting a user so that these type of files will not be created or use `find` command to find all these type of files and change the ownership to new owner.
 
 3.Sometimes you will *Operation not permitted* and *Permission Denied*, at this time please check if you are the owner of the file or not?
+
+4.I ran the `chown`command in a directory:
+
+	$ chown -R user:user {.,}*
+
+  The `{.,}*` is used with `mv` and `cp` to include both  <u>hidden</u> and <u>listed</u> files. Now this command went through and changed those two files in my directory, but I had to break it to stop since it went on. Now I'm afraid it has gone and changed the permissions on other files and folders, since it didn't terminate.
+
+Check this [answer](http://askubuntu.com/questions/502110/chown-recursively-changed-permissions)
