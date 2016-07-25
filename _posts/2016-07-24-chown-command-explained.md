@@ -97,9 +97,9 @@ Use `reference` option for this as shown below..
 
 	$ chown –reference=/home/user1/testfile /var/ftp/file2
 
-**Example 10:** How about changing all the files owned by *user:darius* in /var folder with new *employee:amos* joined as replacement of *khapwondi*?. Use `–from` option on that folder as shown below.
+**Example 10:** How about changing all the files owned by *user:darius* in /var folder with new *employee:amos* joined as replacement of hime?. Use `–from` option on that folder as shown below.
 
-	$ chown –from=terry rob /var/*
+	$ chown –from=darius amos /var/*
 
 #### Some rarely used options..
 
