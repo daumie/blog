@@ -75,17 +75,32 @@ If you are getting a negative value for this, then the CPU has idle time (**CPU 
 There are a number of ways to find the number of cores in your system.Most people prefer to use command `nproc -all` .
 
 `nproc` Prints the number of processing units available to the current process, which may be less than the number of online processors
-	 
-	 nproc -all
 
+For my case 
+
+	 $ nproc -all
+	   2
 You can also use but not limited to...
 
 `grep -c '^processor' /proc/cpuinfo` which works in both `zsh` and `bash` shells
 
-
+---
 
 ## Load average on systems with multiple CPU’s
 
 In a system with multiple CPU’s, these math will not do the trick. For example if we have load average 2 on a single CPU system, the *CPU overload is 2-1 = 100%*. Assume that you have 2 CPU’s, then the load handled by the CPU is its complete usage, you have to calculate it as *2-2 = 0%*. two different processes were using two different CPUs the entire time. On a system with four CPUs, this would be half usage — two processes were using two CPUs, while two CPUs were sitting idle.
 
 So in general, we can say we need to know the number of CPU’s possessed by the system. Load average is very useful in the server environment, it helps in performance evaluation. If the load goes high, we may have to think about adding more resources to the system or optimize/terminate applications or processes  wasting resources. 
+
+---
+
+If the number of active tasks utilizing CPU is less as compared to available CPU cores then the load average can be considered normal but if the no. of active tasks starts increasing with respect to available CPU cores then the load average will start rising.
+
+
+For example in my case I can see 
+![uptime](/assets/img/uptime.png) 
+
+
+So as per the no. of cores I calculated i.e 2 cores and seeing the value 1.07 I shouldn't be worried much unless it crosses the red line value i.e. 2 for my case.
+
+I hope I made myself clear.
