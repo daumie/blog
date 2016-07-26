@@ -70,6 +70,20 @@ If you are getting a negative value for this, then the CPU has idle time (**CPU 
 
 ---
 
+## How do I check the no. of cores on my Linux system?
+
+There are a number of ways to find the number of cores in your system.Most people prefer to use command `nproc -all` .
+
+`nproc` Prints the number of processing units available to the current process, which may be less than the number of online processors
+	 
+	 nproc -all
+
+You can also use but not limited to...
+
+`grep -c '^processor' /proc/cpuinfo` which works in both `zsh` and `bash` shells
+
+
+
 ## Load average on systems with multiple CPU’s
 
 In a system with multiple CPU’s, these math will not do the trick. For example if we have load average 2 on a single CPU system, the *CPU overload is 2-1 = 100%*. Assume that you have 2 CPU’s, then the load handled by the CPU is its complete usage, you have to calculate it as *2-2 = 0%*. two different processes were using two different CPUs the entire time. On a system with four CPUs, this would be half usage — two processes were using two CPUs, while two CPUs were sitting idle.
