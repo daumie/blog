@@ -16,14 +16,21 @@ categories: linux
 - To begin with Obtaining the current load average is very simple by issuing the `uptime` command or the `top` command.
 
 #### `top` Command output.
+
+The  `top`  program provides a dynamic real-time view of a running system.  It can display system summary information as well as a list of processes or threads currently being managed by the Linux kernel.
  
 ![top](/assets/img/top.png)
 
 #### `uptime` Command output.
 
+`uptime`  gives  a  one  line display of the following information.  The current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.
+
 ![uptime](/assets/img/uptime.png)
 
 #### `w` Command output.
+
+ `w` displays information about the users currently on the machine, and their processes.  The header shows, in this order, the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.
+
 
 ![w](/assets/img/w.png)
 
