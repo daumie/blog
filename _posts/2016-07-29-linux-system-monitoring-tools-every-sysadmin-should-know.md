@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux Sytem Monitoring Tools Every Sytem Admin Should Know
+title: Linux Sytem Monitoring Tools Every Sytem Admin Should Know (PART 1)
 date:   2016-07-29 08:50:39  
 categories: sysadmin
 ---
@@ -73,32 +73,4 @@ This is a small tool which is pre-installed on many unix systems. When you want 
 	 
 ![iotop](/assets/img/iotop.png)
 
----
-
-## Desktop Monitoring
-
-### `ntopng`
-`ntopng` is the next generation of ntop and the tool provides a graphical user interface via the browser for network monitoring. It can do stuff such as: geolocate hosts, get network traffic and show ip traffic distribution and analyze it.
-
-![ntopng](/assets/img/ntopng.png)
-
----
-
-### `iftop`
-`iftop` is similar to `top`, but instead of mainly checking for cpu usage it listens to network traffic on selected network interfaces and displays a table of current usage. It can be handy for answering questions such as *“Why on earth is my internet connection so slow?!”.*
-
-	
-![iftop](/assets/img/iftop.png)
-
----
-
-### `jnettop`
-`jnettop` visualises network traffic in much the same way as iftop does. It also supports customizable text output and a machine-friendly mode to support further analysis.
-
-![jnettop](/assets/img/jnettop.png)
-
----
-
-### `bandwidthd`
-`bandwidthd` tracks usage of *TCP/IP* network subnets and visualises that in the browser by building a html page with graphs in png. There is a database driven system that supports searching, filtering, multiple sensors and custom reports.
-![bandwidthd](/assets/img/bandwidthd.png)
+--- 
