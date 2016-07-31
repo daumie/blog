@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux Sytem Monitoring Tools (PART 1)
+title: Command Line Tools(SysAdmin)
 date:   2016-07-29 08:50:39  
 categories: sysadmin
 ---

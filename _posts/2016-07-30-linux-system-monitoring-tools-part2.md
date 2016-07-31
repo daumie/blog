@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux Sytem Monitoring Tools (PART 2)
+title: Desktop Monitoring (SysAdmin)
 date:   2016-07-30 08:50:39  
 categories: sysadmin
 ---
