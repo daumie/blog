@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Infrastructure Monitoring Tools
+title: Infrastructure Monitoring Tools (SysAdmin)
 date:   2016-07-31 08:50:39  
 categories: sysadmin
 ---
@@ -38,4 +38,7 @@ BrainyPDM project [summary](https://www.openhub.net/p/brainypdm)
 
 ---
 
+### `pcp`
+**Performance Co-Pilot** is a system performance and analysis framework.**PCP** has the capability of collating metrics from multiple hosts and does so efficiently. It also has a plugin framework so you can make it collect specific metrics that is important to you. You can access graph data through either a web interface or a GUI. Good for monitoring large systems.
 
+![pcp](/assets/img/infrastructure_monitoring/pcp.png)
