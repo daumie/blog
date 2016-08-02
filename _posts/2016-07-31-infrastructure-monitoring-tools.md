@@ -42,3 +42,65 @@ BrainyPDM project [summary](https://www.openhub.net/p/brainypdm)
 **Performance Co-Pilot** is a system performance and analysis framework.**PCP** has the capability of collating metrics from multiple hosts and does so efficiently. It also has a plugin framework so you can make it collect specific metrics that is important to you. You can access graph data through either a web interface or a GUI. Good for monitoring large systems.
 
 ![pcp](/assets/img/infrastructure_monitoring/pcp.png)
+
+---
+
+### [KDE System Guard](https://userbase.kde.org/KSysGuard)
+This tool is both a system monitor and task manager. You can view server metrics from several machines through the worksheet and if a process needs to be killed or if you need to start a process it can be done within KDE system guard.
+
+![kde](/assets/img/infrastructure_monitoring/kde.png)
+
+---
+
+### [Munin](http://munin-monitoring.org/)
+`Munin` is both a network and a system monitoring tool which offers alerts for when metrics go beyond a given threshold. It uses RRDtool to create the graphs and it has web interface to display these graphs. Its emphasis is on plug and play capabilities with a number of plugins available.
+
+![munin](/assets/img/infrastructure_monitoring/munin.png)
+
+---
+
+### [Nagios](http://www.nagios.org/)
+
+Nagios is system and network monitoring tool that helps you monitor monitor your many servers. It has support for alerting for when things go wrong. It also has many plugins written for the platform.
+**Nagios XI** provides monitoring of all mission-critical infrastructure components including applications, services, operating systems, network protocols, systems metrics, and network infrastructure. Hundreds of third-party addons provide for monitoring of virtually all in-house and external applications, services, and systems.
+
+![nagios](/assets/img/infrastructure_monitoring/nagios.png)
+
+---
+
+### [Zenoss](http://www.zenoss.com/)
+**Zenoss** provides a web interface that allows you to monitor all system and network metrics. Moreover it discovers network resources and changes in network configurations. It has alerts for you to take action on and it supports the Nagios plugins.
+
+![zenoss](/assets/img/infrastructure_monitoring/zenoss.png)
+
+---
+
+### [Cacti](http://www.cacti.net/)
+(And one for luck!) Cacti is network graphing solution that uses the RRDtool data storage. It allows a user to poll services at predetermined intervals and graph the result. Cacti can be extended to monitor a source of your choice through shell scripts.
+
+![cacti](/assets/img/infrastructure_monitoring/cacti.png)
+
+---
+
+### [Zabbix Monitoring](http://www.zabbix.com/)
+**Zabbix** is an open source infrastructure monitoring solution. It can use most databases out there to store the monitoring statistics. The Core is written in C and has a frontend in PHP. If you don’t like installing an agent, Zabbix might be an option for you.
+
+![zabbix](/assets/img/infrastructure_monitoring/zabbix.png)
+
+---
+
+### [nmon](http://nmon.sourceforge.net/pmwiki.php)
+
+**nmon** either outputs the data on screen or saves it in a comma separated file. You can display CPU, memory, network, filesystems, top processes. The data can also be added to a RRD database for further analysis.
+
+![nmon](/assets/img/infrastructure_monitoring/nmon.png)
+
+---
+
+### [conky](http://conky.sourceforge.net/)
+
+**Conky** monitors a plethora of different OS stats. It has support for IMAP and POP3 and even support for many popular music players! For the handy person you could extend it with your own scripts or programs using Lua.
+
+![conky](/assets/img/infrastructure_monitoring/conky.png)
+
+---
