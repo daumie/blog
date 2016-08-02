@@ -38,7 +38,22 @@ Dstat’s output by default is designed for being interpreted by humans in real-
 
 ### `top`
 
-This is a small tool which is pre-installed on many unix systems. When you want an overview of all the processes or threads running in the system: top is a good tool. Order processes on different criteria – the default of which is CPU.
+This is a small tool which is pre-installed on many unix systems. When you want an overview of all the processes or threads running in the system: top is a good tool. Order processes on different criteria – the default of which is CPU.The top program provides a dynamic real-time view of a running system i.e. actual process activity. By default, it displays the most CPU-intensive tasks running on the server and updates the list every five seconds.
+	
+#### commonly used hotkeys
+
+| Hot Key | Usage |
+|:----------:|:--------|
+| <kbd>t</kbd> |	Displays summary information off and on.|
+| <kbd>m</kbd> |	Displays memory information off and on.|
+| <kbd>A</kbd> |	Sorts the display by top consumers of various system resources. Useful for quick identification of performance-hungry tasks on a system.|
+| <kbd>f</kbd> |	Enters an interactive configuration screen for top. Helpful for setting up top for a specific task.|
+| <kbd>o</kbd> |	Enables you to interactively select the ordering within top.|
+| <kbd>r</kbd> |	Issues renice command.|
+| <kbd>k</kbd> |	Issues kill command.|
+| <kbd>z</kbd> |	Turn on or off color/mono|
+
+
 ![top](/assets/img/command_line_tools/top.png)
 
 ---
