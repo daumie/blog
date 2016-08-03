@@ -19,20 +19,20 @@ categories: linux
 
 The  `top`  program provides a dynamic real-time view of a running system.  It can display system summary information as well as a list of processes or threads currently being managed by the Linux kernel.
  
-![top](/assets/img/top.png)
+![top](/assets/img/load_average/top.png)
 
 #### `uptime` Command output.
 
 `uptime`  gives  a  one  line display of the following information.  The current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.
 
-![uptime](/assets/img/uptime.png)
+![uptime](/assets/img/load_average/uptime.png)
 
 #### `w` Command output.
 
  `w` displays information about the users currently on the machine, and their processes.  The header shows, in this order, the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.
 
 
-![w](/assets/img/w.png)
+![w](/assets/img/load_average/w.png)
 
 #### What are the three values?
 
@@ -98,7 +98,7 @@ If the number of active tasks utilizing CPU is less as compared to available CPU
 
 
 For example in my case I can see 
-![uptime](/assets/img/uptime.png) 
+![uptime](/assets/img/load_average/uptime.png) 
 
 
 So as per the no. of cores I calculated i.e 2 cores and seeing the value 1.07 I shouldn't be worried much unless it crosses the red line value i.e. 2 for my case.
