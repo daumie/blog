@@ -40,8 +40,8 @@ share:
 enableTags: true
 tagarray: []
 
-url: "https://github.com/daumie/blog"
-baseurl: "https://github.com/daumie/blog"
+url: ""
+baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
