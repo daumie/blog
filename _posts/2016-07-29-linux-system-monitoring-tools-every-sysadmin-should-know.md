@@ -32,7 +32,7 @@ For clarity , I will divide the tools into 5 categories:
 
 Dstat’s output by default is designed for being interpreted by humans in real-time, however you can export details to *CSV* output to a file to be imported later into Gnumeric or Excel to generate graphs. 
 
-![dstat](/assets/img/command_line_tools/dstat.png)
+![dstat](/blog/assets/img/command_line_tools/dstat.png)
 
 ---
 
@@ -54,25 +54,25 @@ This is a small tool which is pre-installed on many unix systems. When you want 
 | <kbd>z</kbd> |	Turn on or off color/mono|
 
 
-![top](/assets/img/command_line_tools/top.png)
+![top](/blog/assets/img/command_line_tools/top.png)
 
 ---
 
 ### `htop`
 `htop` is essentially an enhanced version of top. It’s easier to sort by processes. It’s visually easier to understand and has built in commands for common things you would like to do. Plus it’s fully interactive.
-![htop](/assets/img/command_line_tools/htop.png)
+![htop](/blog/assets/img/command_line_tools/htop.png)
 
 ---
 
 ### `atop`
 `atop` monitors all processes much like top and htop, unlike top and htop however it has daily logging of the processes for long-term analysis. It also shows resource consumption by all processes. It will also highlight resources that have reached a critical load.
-![atop](/assets/img/command_line_tools/atop.png)
+![atop](/blog/assets/img/command_line_tools/atop.png)
 
 ---
 
 ### `apachetop`
 `apachetop` monitors the overall performance of your apache webserver. It’s largely based on mytop. It displays current number of reads, writes and the overall number of requests processed.
-![apachetop](/assets/img/command_line_tools/apachetop.png)
+![apachetop](/blog/assets/img/command_line_tools/apachetop.png)
 
 ---
 
@@ -81,21 +81,21 @@ This is a small tool which is pre-installed on many unix systems. When you want 
 
 	# apt-get install proftpd-basic  
 
-![ftptop](/assets/img/command_line_tools/ftptop.png)
+![ftptop](/blog/assets/img/command_line_tools/ftptop.png)
 
 ---
 
 ### `mytop`
 `mytop` is a neat tool for monitoring threads and performance of mysql. It gives you a live look into the database and what queries it’s processing in real time
 
-![mytop](/assets/img/command_line_tools/mytop.png)
+![mytop](/blog/assets/img/command_line_tools/mytop.png)
 
 ---
 
 ### `powertop`
 `powertop` helps you diagnose issues that has to do with power consumption and power management. It can also help you experiment with power management settings to achieve the most efficient settings for your server.*Quickhint* You switch tabs with the tab key.
 
-![powertop](/assets/img/command_line_tools/powertop.png)
+![powertop](/blog/assets/img/command_line_tools/powertop.png)
 
 ---
 
@@ -103,6 +103,6 @@ This is a small tool which is pre-installed on many unix systems. When you want 
 `iotop` checks the I/O usage information and gives you a top-like interface to that. It displays columns on read and write and each row represents a process. It also displays the percentage of time the process spent while swapping in and while waiting on I/O.
 
 	 
-![iotop](/assets/img/command_line_tools/iotop.png)
+![iotop](/blog/assets/img/command_line_tools/iotop.png)
 
 --- 

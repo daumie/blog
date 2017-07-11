@@ -12,7 +12,7 @@ The chmod command in Linux/Unix is abbreviated as **CH**ange  **MOD**e. Chmod co
 
 This type of restriction is useful for effective file/folder management, securing system and providing a level of access to a file/folder for the users who access them.
 
-![Chmod](/assets/img/chmod.png)
+![Chmod](/blog/assets/img/chmod.png)
 
 For example, I've read that you've got three different permission groups._(For every file we define 3 sets of people for whom we may specify permissions.)_
 

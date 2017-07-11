@@ -36,7 +36,7 @@ The two most popular version control systems are broken down into two main categ
 	distributed (also known as decentralized)
 
 ## Centralized Version Control
-![cvc](/assets/img/cvc.png)
+![cvc](/blog/assets/img/cvc.png)
 
 ---
 
@@ -59,7 +59,7 @@ Some of the most common centralized version control systems you may have heard o
 
 Distributed systems are a newer option. In distributed version control, each user has their own copy of the entire repository, not just the files but the history as well.
 
-![cvc](/assets/img/dvc.png)
+![cvc](/blog/assets/img/dvc.png)
 
 ---
 

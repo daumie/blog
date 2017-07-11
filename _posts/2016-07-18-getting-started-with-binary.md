@@ -5,7 +5,7 @@ date:   2016-07-18 08:50:39
 categories: other
 ---
 
-![Binary](/assets/img/binary.jpg)
+![Binary](/blog/assets/img/binary.jpg)
 
 # Number Sytems!
 

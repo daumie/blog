@@ -7,7 +7,7 @@ categories: terminal
 
 The terminal is an interface which you can type and execute text based commands.
 
-![Terminal](/assets/img/terminal.png)
+![Terminal](/blog/assets/img/terminal.png)
 
 
 ---
