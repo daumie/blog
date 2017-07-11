@@ -9,7 +9,6 @@ categories: sysadmin
 
 GoAccess is a real-time web log analyzer which analyzes the access log from either apache, nginx or amazon cloudfront. It’s also possible to output the data into HTML, JSON or CSV. It will give you general statistics, top visitors, 404s, geolocation and many other things.
 
-![goaccess](/blog/assets/img/logging_tools/goaccess.png)
 
 ---
 
@@ -29,6 +28,5 @@ Much like Logwatch Swatch also monitors your logs, but instead of giving reports
 
 MultiTail helps you monitor logfiles in multiple windows. You can merge two or more of these logfiles into one. It will also use colors to display the logfiles for easier reading with the help of regular expressions.
 
-![multitail](/blog/assets/img/logging_tools/multitail.png)
 
 ---
