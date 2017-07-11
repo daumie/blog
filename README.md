@@ -1,6 +1,6 @@
 ## Personal Website
 
-My [daumie.github.io](https://daumie.github.io/) blog theme  is inspired by [aboutashu](http://aboutashu.com/hcz-jekyll-blog/) 
+My [blog](https://daumie.github.io/blog) blog theme  is inspired by [aboutashu](https://codeasashu.github.io/hcz-jekyll-blog/) 
 
 ---
 
