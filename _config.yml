@@ -9,6 +9,8 @@ about: Freelance Web developer
 baseurl: "https://daumie.github.io/blog"
 url: "https://daumie.github.io/blog"
 
+allowsearch: true
+
 
 disqus_shortname: daumie
 google_analytics: UA-80222908-1
