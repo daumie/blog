@@ -6,8 +6,8 @@ github: https://github.com/daumie
 about: Freelance Web developer
 
 
-baseurl: "https://daumie.github.io/blog"
-url: "https://daumie.github.io/blog"
+url: "https://github.com/daumie/blog"
+baseurl: ""
 
 allowsearch: true
 
