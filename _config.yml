@@ -26,6 +26,9 @@ urls:
     - text: XML Feed
       url: /feed.xml
       icon: fa-feed
+
+baseurl: "https://github.com/daumie/blog"
+url: "https://github.com/daumie/blog"
       
 social:
 
@@ -55,6 +58,7 @@ tagarray: []
 
 url: 
 baseurl: "blog"
+site.github.url: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
